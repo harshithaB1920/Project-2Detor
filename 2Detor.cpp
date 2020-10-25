@@ -1,4 +1,5 @@
 //2Detor c++ project
+//zay dev shinai-selvu
 #include<bits/stdc++.h> 
 using namespace std;
 int countAcid(string aminoSeq) //function to count no of space-sep words in string
@@ -26,6 +27,10 @@ char* acidCodonConvert(unordred_map<string,string> codon_amino,string sequence)
 	}
 	return baseSeq;
 }
+void match()
+{
+	
+}
 int main()
 {
 	//declaring and initialising aa sequence for ADA enzyme secretion
@@ -33,8 +38,9 @@ int main()
 	unordered_map<string,string> codon_amino; //map container declaration
 	
 	//insert elements
-	codon_amino["UUU"]="Phe";
-	codon_amino[""]
+	codon_amino["Phe"]="UUU";
+	codon_amino["Mel"]="any";
+	
 	
 	//print map contents
 	for(auto x:codon_amino)
