@@ -38,9 +38,14 @@ int main()
 	unordered_map<string,string> codon_amino; //map container declaration
 	
 	//insert elements
+<<<<<<< HEAD
 	codon_amino["Phe"]="UUU";
 	codon_amino["Mel"]="any";
 	
+=======
+	codon_amino["UUU"]="Phe";
+	codon_amino["AAU"]="any"
+>>>>>>> 15260a6c831ce5de95855b12485976274045eb91
 	
 	//print map contents
 	for(auto x:codon_amino)
